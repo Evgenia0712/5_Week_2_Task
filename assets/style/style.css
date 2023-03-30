@@ -7,10 +7,8 @@ body {
 }
 
 #menu {
-    flex-wrap: wrap;
     align-content: flex-start;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     margin: 30px 0 0 10px;
     padding: 20px;
@@ -45,14 +43,18 @@ body {
 }
 
 #logo {
-    margin: 10px 10px 10px 640px;
-    position: absolute;
+    margin: 10px 10px 10px 0px;
+    height: 70px;
     width: 250px;
 }
 
 .contact {
     color: rgb(34, 34, 34);
     height: 15px;
+}
+
+.lang {
+    height: 30px;
 }
 
 option:checked {
@@ -65,18 +67,17 @@ option:checked {
 }
 
 #foto {
-    border: 1px solid black;
     float: right;
-    margin: 100px 10px 10px 550px;
-    position: absolute;
+    margin: 40px 10px 10px 40px;
+    height: 500px;
 }
 
 h1 {
-    color: #FFFFFF;
+    color: #ffffff;
     font-size: 50px;
     font-family: 'Merriweather', 'Times New Roman', serif;
-    padding-top: 100px;
-    padding-left: 60px;
+    padding-top: 50px;
+    padding-left: 100px;
 }
 
 h1::first-letter {
@@ -167,7 +168,7 @@ h3::first-letter {
     display: flex;
     height: 400px;
     background-color: #A9C2BE;
-    margin: 1px;
+    margin-top: -450px;
     justify-content: flex-end;
 }
 
@@ -178,6 +179,7 @@ h3::first-letter {
     color: white;
     font-weight: lighter;
     padding: 10px;
+    margin-left: 750px;
 }
 
 h4 {
@@ -193,31 +195,35 @@ h4::first-letter {
     color: #FF9619;
 }
 
-#first {
+.first {
     font-weight: 900;
 }
 
 #leon {
-    float: right;
     margin: 30px 10px 10px 215px;
-    position: absolute;
 }
 
-#furn {
-    float: right;
-    margin: -35px 10px 10px 1300px;
-    position: absolute;
+.link-button_3 {
+    display: block;
+    text-decoration: none;
+    background-color: #FF9619;
+    border-radius: 3px;
+    color: white;
+    padding: 12px;
+    width: 300px;
+    text-align: center;
+    margin-top: 40px;
 }
 
 #bosfor {
-    float: right;
-    margin: 200px 10px 10px 670px;
-    position: absolute;
-    height: 500px;
+    margin: 250px 10px 10px -300px;
+    height: 450px;
 }
 
 #history {
     height: 600px;
+    display: flex;
+    justify-content: center;
 }
 
 .history {
@@ -228,7 +234,6 @@ h4::first-letter {
     font-weight: lighter;
     margin: 50px 230px;
     padding: 50px;
-    position: absolute;
 
 }
 
@@ -237,9 +242,8 @@ h4::first-letter {
 }
 
 #foto2 {
-    float: right;
-    margin: 0px 10px 10px 250px;
-    position: absolute;
+
+    margin: 0px 10px 10px 150px;
     height: 500px;
 }
 
@@ -251,22 +255,23 @@ h4::first-letter {
 #forma {
     width: 380px;
     height: 350px;
-    margin-left: 920px;
-    margin-top: 100px;
-    position: absolute;
-    background-color: #FFFFFF;
+    margin-left: 870px;
+    margin-top: -430px;
+    background-color: #FFFFFF80;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
 }
 
+/*
 #O {
     float: right;
-    margin: 80px 10px 10px 870px;
+    margin: 80px 10px 10px 848px;
     position: absolute;
     height: 100px;
 }
+*/
 
 #anket {
     color: #FF9619;
@@ -293,8 +298,16 @@ h4::first-letter {
     height: 240px;
 }
 
+#partners {
+    margin-top: 600px;
+}
+
 .partners {
     display: flex;
+}
+
+.our_partners {
+    margin-top: -520px;
 }
 
 #our_partners {
@@ -308,7 +321,6 @@ h4::first-letter {
     height: 435px;
     color: #FFFFFF;
     padding: 135px;
-    border: 1px solid black;
 }
 
 .right {
@@ -318,9 +330,8 @@ h4::first-letter {
 }
 
 #Arni {
-    position: absolute;
-    margin-left: 700px;
-    margin-top: 150px;
+    margin-left: 0px;
+    margin-top: 10px;
 }
 
 .images_1 {

@@ -5,18 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/style/style.css">
+    <link rel="stylesheet" href="./assets/style/style.css" type="text/css">
     <title>М'якi меблi у Киевi</title>
     <link rel="shortcut icon" href="assets/images/icon.png" type="img/png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Rubik&display=swap"
-        rel="stylesheet">
+        rel="stylesheet" type="text/css">
 </head>
 
 <body>
     <header>
-        <img id="logo" src="assets/images/log.png" alt="логотип">
+
         <nav id="menu">
             <div class="object">
                 <div class="links">
@@ -39,6 +39,9 @@
                     <a class="link" href="https://www.ekmi-mebli.com/контакты">Контакты</a>
                 </div>
             </div>
+            <div>
+                <img id="logo" src="assets/images/log.png" alt="логотип">
+            </div>
             <div class="object">
                 <div>
                     <a class="link" href="https://www.ekmi-mebli.com/о-компании">О Компании</a>
@@ -46,7 +49,7 @@
                 <div>
                     <strong class="contact">+38(099)638-45-37</strong>
                 </div>
-                <select>
+                <select class="lang">
                     <option value="1">RU</option>
                     <option value="2">EN</option>
                     <option value="3">UK</option>
@@ -76,25 +79,27 @@
             </div>
         </section>
         <img id="leon" src="./assets/images/Леон2.png" alt="Леон2">
-        <img id="furn" src="./assets/images/furniture.png" alt="furniture">
         <section id="furniture">
             <div class="individual">
                 <h4>Индивидуальная<br> мебель</h4>
                 <p id="first">Полный цикл производства</p>
                 <p>Качество мягкой мебели начинается<br> задолго до начала ее производства</p>
+                <a class="link-button_3" href="https://www.ekmi-mebli.com/magazin">Индивидуальная мебель</a>
             </div>
         </section>
-        <img id="bosfor" src="./assets/images/Босфор.png" alt="Босфор">
         <section id="history">
             <div>
                 <div>
-                    <h3>Наша история</h3>
+                    <h3 class="h3">Наша история</h3>
                 </div>
                 <div class="history">
-                    <p id="first">Наработки длинной в 25 лет</p>
+                    <p class="first">Наработки длинной в 25 лет</p>
                     <p>Каждый производитель заявляет, что делает<br> все для своих покупателей, но не каждый<br>
                         производитель способен подтвердить свои<br> заявления многолетней историей</p>
                 </div>
+            </div>
+            <div>
+                <img id="bosfor" src="./assets/images/Босфор.png" alt="Босфор">
             </div>
         </section>
         <section id="last_public">
@@ -110,15 +115,17 @@
                 <img class="arrow" src="./assets/images/right.png" alt="right">
             </div>
         </section>
-        <img id="foto2" src="./assets/images/foto2.png" alt="foto2">
-        <img id="O" src="./assets/images/О.png" alt="O">
+        <!--<img id="O" src="./assets/images/О.png" alt="O">-->
         <section id="question">
+            <div>
+                <img id="foto2" src="./assets/images/foto2.png" alt="foto2">
+            </div>
             <div id="forma">
                 <p id="anket">Заполните форму</p>
                 <p><b>ОСТАЛИСЬ ВОПРОСЫ</b></p>
                 <div>
                     <label for="name">Ваше имя*</label>
-                    <input type="name" id="name">
+                    <input type="text" id="name">
                 </div>
                 <div>
                     <label for="tel">Ваш номер телефона</label>
@@ -155,28 +162,34 @@
                 свою мебель полноценной гарантией и первой обоснованно заявила о лучшем качестве производимой мебели.
             </div>
         </section>
-        <img id="Arni" src="./assets/images/Арни2.png" alt="Арни2">
         <section id="partners">
             <div>
-                <h3 id="our_partners">Наши партнеры</h3>
-            </div>
-            <div class="partners">
-                <div class="left">
-                    <div class="TEXT">
-                        <p id="first">Компании сотрудничают с нами по всему миру</p>
-                        <p>На данный момент дилерская сеть фабрики<br> «Экми-Мебель» насчитывает более 30 салонов<br> по
-                            всей
-                            Украине. Сейчас мы заинтересованы в<br> расширении сети и предлагаем выгодные<br> условия
-                            для
-                            сотрудничества.</p>
-                        <p>Основным преимуществом фабрики является<br> изготовление любого индивидуального изделия,<br>
-                            мягкой
-                            мебели и аксессуаров из наших<br> основных коллекций. Также присутствует<br> линейка
-                            оригинальных
-                            интерьерных корпусных<br> изделий.</p>
+                <div class="our_partners">
+                    <h3 id="our_partners">Наши партнеры</h3>
+                </div>
+                <div class="partners">
+                    <div class="left">
+                        <div class="TEXT">
+                            <p class="first">Компании сотрудничают с нами по всему миру</p>
+                            <p>На данный момент дилерская сеть фабрики<br> «Экми-Мебель» насчитывает более 30
+                                салонов<br> по
+                                всей
+                                Украине. Сейчас мы заинтересованы в<br> расширении сети и предлагаем выгодные<br>
+                                условия
+                                для
+                                сотрудничества.</p>
+                            <p>Основным преимуществом фабрики является<br> изготовление любого индивидуального
+                                изделия,<br>
+                                мягкой
+                                мебели и аксессуаров из наших<br> основных коллекций. Также присутствует<br> линейка
+                                оригинальных
+                                интерьерных корпусных<br> изделий.</p>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <img id="Arni" src="./assets/images/Арни2.png" alt="Арни2">
                     </div>
                 </div>
-                <div class="right"></div>
             </div>
         </section>
         <section id="images">
@@ -200,7 +213,7 @@
     <footer>
         <div>
             <div>
-                <img src="./assets/images/logo mini.png" alt="logo">
+                <img src="./assets/images/mini.png" alt="logo">
             </div>
             <div>
                 <a href="#">Каталог</a>
