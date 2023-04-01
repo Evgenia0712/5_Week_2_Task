@@ -124,27 +124,25 @@
             <div id="forma">
                 <p id="anket">Заполните форму</p>
                 <p><b>ОСТАЛИСЬ ВОПРОСЫ</b></p>
-                <div>
-                    <label for="name">Ваше имя*</label>
-                    <input type="text" id="name">
-                </div>
-                <div>
-                    <label for="tel">Ваш номер телефона</label>
-                    <input type="tel" id="tel">
-                </div>
-                <div>
-                    <label for="country">Страна</label>
-                    <input type="text" id="country">
-                </div>
-                <div>
-                    <label for="comment">Комментарий</label>
-                    <input type="text" id="comment">
-                </div>
-                <div>
-                    <input type="checkbox" value="1" id="checkbox">Подтверждая заказ, я принимаю условия<br>
-                    пользовательского
-                    соглашения
-                </div>
+                <form class="anket">
+                    <div class="forma">
+                        <input type="text" placeholder="Ваше имя*" id="name" required>
+                    </div>
+                    <div class="forma">
+                        <input type="tel" placeholder="Ваш номер телефона" id="tel">
+                    </div>
+                    <div class="forma">
+                        <input type="text" placeholder="Страна" id="country">
+                    </div>
+                    <div class="forma">
+                        <input type="text" placeholder="Комментарий" id="comment">
+                    </div>
+                    <div class="forma">
+                        <input type="checkbox" value="1" id="checkbox">Подтверждая заказ, я принимаю условия<br>
+                        пользовательского
+                        соглашения
+                    </div>
+                </form>
                 <div>
                     <form action="#">
                         <button id="call">ЗАПРОСИТЬ ЗВОНОК</button>

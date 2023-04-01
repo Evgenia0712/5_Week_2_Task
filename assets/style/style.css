@@ -265,6 +265,16 @@ h4::first-letter {
     color: #FF9619;
 }
 
+.anket {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.forma {
+    height: 30px;
+}
+
 #call {
     background-color: #FF9619;
     border-radius: 3px;
